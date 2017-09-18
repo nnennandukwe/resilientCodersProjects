@@ -1,0 +1,85 @@
+*{
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+}
+body{
+  margin-left:21%;
+  margin-right:21%;
+}
+header{
+  padding-top:30px;
+}
+h1 a{
+  color: #D30A03;
+  font-size: 65px;
+  text-decoration: none;
+  font-weight: 300;
+}
+header h2{
+  font-size:30px;
+}
+h2, h2 a{
+  color:black;
+}
+header nav a{
+  color:#D8DADB;
+  display:inline-block;
+  font-size:23px;
+  font-weight: 300;
+  padding-left:0px;
+  padding-right:10px;
+}
+h2 a{
+  font-size:40px;
+  text-decoration:none;
+}
+article h3{
+  color:#C1C1C2;
+  font-size:40px;
+  text-decoration:none;
+  margin-bottom:20px;
+}
+#nycPhoto{
+  width:100%;
+  height:250px;
+}
+h4 a{
+  float:right;
+  text-decoration:none;
+  color:#D30A03;
+  font-weight:bold;
+  font-size:20px;
+}
+article > p::first-letter{
+  font-size:90px;
+  color:#D8DADB;
+  float:left;
+  line-height: 60px;
+  padding-top:10px;
+}
+article p{
+  font-size:18px;
+  color:#5E5D5D;
+  line-height:1.7;
+}
+#parisPhoto{
+  width:100%;
+}
+article{
+  border-bottom:solid;
+  border-bottom-width:1px;
+  border-bottom-color:#D8DADB;
+  padding-bottom:100px;
+}
+footer nav{
+  padding-top:85px;
+  margin-bottom:30px;
+}
+footer nav a{
+  color:#D30A03;
+  font-size:20px;
+  text-decoration:none;
+}
+footer p{
+  color:#C1C1C2;
+}
