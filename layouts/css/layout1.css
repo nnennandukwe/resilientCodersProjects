@@ -1,0 +1,29 @@
+header{
+  height:150px;
+  border: solid 1px;
+  width:100%;
+  clear:both;
+}
+.topSection{
+  height:175px;
+  width:33.1%;
+  border: solid 1px;
+  float:left;
+}
+.first-bottom-section{
+  height:275px;
+  width:55%;
+  border:solid 1px;
+  float:left;
+}
+.second-bottom-section{
+  height:275px;
+  width:44%;
+  border:solid 1px;
+  float:left;
+}
+footer{
+  height:150px;
+  border: solid 1px;
+  clear:both;
+}

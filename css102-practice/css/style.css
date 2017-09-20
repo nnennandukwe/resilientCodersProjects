@@ -1,0 +1,19 @@
+p{
+  color:red;
+  background-color:blue;
+  padding:20px;
+  border:solid;
+  border-color:gray;
+  border-width:20px;
+  margin-top:40px;
+  margin-left:40px;
+}
+
+.start h1{
+  color:green;
+  background-color:yellow;
+  border:solid 1px;
+  border-color:blue;
+  padding:0 0 20px 20px;
+  margin:30px;
+}

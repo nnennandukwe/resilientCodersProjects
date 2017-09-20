@@ -1,0 +1,34 @@
+header{
+  height:135px;
+  border: solid 1px;
+}
+.first-section{
+  height:600px;
+  border:solid 1px;
+  width:15%;
+  float:left;
+  clear:both;
+}
+.second-section{
+  height:600px;
+  border:solid 1px;
+  width:54%;
+  float:left;
+}
+.third-section{
+  height:600px;
+  border: solid 1px;
+  width:15%;
+  float:left;
+}
+.fourth-section{
+  height:600px;
+  border:solid 1px;
+  width:15%;
+  float:left;
+}
+footer{
+  height:135px;
+  border: solid 1px;
+  clear:both;
+}

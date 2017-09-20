@@ -1,0 +1,26 @@
+header{
+  height:150px;
+  border: solid 1px;
+}
+.first-section{
+  height:275px;
+  border:solid 1px;
+}
+.second-section{
+  height:350px;
+  border:solid 1px;
+  float:left;
+  clear:both;
+  width:34%;
+}
+.third-section{
+  height:350px;
+  border:solid 1px;
+  width:65%;
+  float:left;
+}
+footer{
+  height:125px;
+  border:solid 1px;
+  clear:both;
+}
