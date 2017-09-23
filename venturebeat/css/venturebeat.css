@@ -1,0 +1,89 @@
+*{
+  list-style:none;
+  text-decoration:none;
+}
+a{
+  color:black;
+}
+header{
+  height:100px;
+  width:100%;
+  clear:both;
+  float:left;
+  background-color:black;
+}
+header ul{
+  margin-left:200px;
+  word-spacing:30px;
+}
+header ul li{
+  display:inline-block;
+  float:middle;
+}
+header ul li a{
+  color:#CDCDCD;
+  font-family:'Open Sans';
+  font-size:20px;
+  float:right;
+}
+header ul li:nth-child(5), li:nth-child(6), li:nth-child(7){
+  float:right;
+  margin-right:100px;
+}
+header img{
+  height:75px;
+}
+section:first-of-type{
+  height:650px;
+  clear:both;
+  background:url("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/izbiLbympZSA/v3/800x-1.jpg");
+  background-size:100%;
+  border:solid 1px;
+}
+.first-section-title h2:first-child{
+  background-color:white;
+  width:600px;
+  height:100px;
+  margin-left:200px;
+  font-family:'Roboto Slab', serif;
+  font-size:30px;
+  padding:10px;
+  opacity:0.8;
+  margin-top:400px;
+}
+section {
+  height:550px;
+  width:100%;
+}
+section:nth-child(3){
+  width:720px;
+  clear:both;
+  margin-left:200px;
+  border-bottom:solid 1px;
+  height:300px;
+}
+section:nth-child(3) ul li div{
+  width:350px;
+  float:right;
+}
+section:nth-child(3) img{
+  float:left;
+  clear:left;
+  height:230px;
+  width:300px;
+  margin-left:-30px;
+}
+section:nth-child(3) h2{
+  font-family:'Roboto Slab', serif;
+  font-weight:normal;
+  font-size:27px;
+}
+section:nth-child(3) div a > span, span{
+  font-family: 'Open Sans';
+}
+section:nth-child(3) div a span:nth-child(1){
+  color:blue;
+}
+section:nth-child(3) div span:nth-child(3){
+  color:grey;
+}

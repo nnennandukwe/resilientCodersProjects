@@ -1,0 +1,21 @@
+body{
+  list-style:none;
+  background-color:#E3E3E3;
+  text-decoration:none;
+}
+header{
+  height:50px;
+  background-color:#3E6DB3;
+  clear:both;
+}
+header nav ul li{
+  display:inline-block;
+  padding:10px;
+}
+.search-bar{
+  width:400px;
+}
+.fa-search{
+  background-color:#E3E3E3;
+  color:grey;
+}

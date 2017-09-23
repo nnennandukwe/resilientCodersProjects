@@ -1,0 +1,147 @@
+*{
+  font-family:'Open Sans', sans-serif;
+  font-weight:600;
+  text-decoration:none;
+  list-style:none;
+}
+header{
+  height:200px;
+}
+body{
+  margin-left:10%;
+  margin-right:10%;
+  padding-left:10px;
+  padding-right:10px;
+}
+.tc-logo{
+  height:200px;
+  width:200px;
+  float:left;
+  clear:left;
+}
+.got-a-tip{
+  margin-top:25px;
+  float:left;
+  font-size:20px;
+  width:700px;
+}
+.ask-tip{
+  color:#ADB0AD;
+}
+.let-us-know{
+  color:green;
+}
+.first-nav{
+  float:left;
+  margin-top:50px;
+  margin-right:500px;
+}
+.first-nav a{
+  color:black;
+  font-size:20px;
+  font-weight:400;
+  word-spacing:10px;
+}
+.second-nav{
+  float:right;
+  font-size:20px;
+  clear:right;
+  margin-top:-100px;
+  padding-right:35px;
+}
+.message-and-search{
+  float:right;
+  width:350px;
+  font-size:30px;
+  margin-top:-42px;
+}
+.message-and-search input{
+  width:200px;
+  height:35px;
+}
+.message-and-search input::placeholder{
+  color:green;
+  font-size:20px;
+}
+.search-button{
+  height:35px;
+  width:35px;
+}
+.ad{
+  clear:both;
+  text-align:center;
+  background-color:#055802;
+  color:white;
+  height:45px;
+  padding-top:15px;
+}
+.ad > :first-child{
+  font-size:20px;
+}
+.crunch-section{
+  float:left;
+  width:650px;
+  height:600px;
+}
+section:nth-child(3) span:first-child{
+  color:#5E5E5E;
+  font-size:30px;
+}
+section:nth-child(3) span:nth-child(2){
+  font-size:35px;
+  color:green;
+}
+video{
+  float:left;
+  height:445px;
+  width:600px;
+  clear:left;
+}
+.featured-stories-menu{
+  width:300px;
+  height:600px;
+  float:left;
+}
+section:nth-child(3) > span:last-child{
+  color:grey;
+  font-style:italic;
+  color:#ADB0AD;
+}
+.news-sidebar{
+  float:right;
+  height:600px;
+  width:280px;
+  background-color:#EAEAEA;
+}
+section:nth-child(4) img {
+  height:90px;
+  width:90px;
+  float:left;
+  clear:left;
+  margin-left:-40px;
+}
+section:nth-child(4) div {
+  width:200px;
+  height:100px;
+  margin-left:70px;
+}
+section:nth-child(4) span:first-child{
+  color:#5E5E5E;
+}
+section:nth-child(4) span:last-of-type{
+  color:lightgray;
+  font-style:italic;
+}
+section:nth-child(5) div:nth-child(2){
+  height:150px;
+  width:273px;
+  border:solid 1px;
+  font-size:25px;
+  margin-top:20px;
+}
+section:nth-child(5) span:first-child{
+  color:grey;
+}
+section:nth-child(5) span:nth-child(2){
+  color:green;
+}
