@@ -2,13 +2,15 @@
   list-style:none;
   text-decoration:none;
   font-family:'Arimo', sans-serif;
+  border-radius:3px;
 }
 body{
   background-color:#E3E3E3;
 }
 header{
-  height:50px;
+  height:65px;
   background-color:#3E6DB3;
+  margin-top:-20px;
   clear:both;
 }
 header nav ul li{
@@ -48,8 +50,8 @@ header nav ul li{
   padding:20px;
   height:90%;
 }
-.ad-feed-top button:nth-child(4){
-  background-color:#E3E3E3;
+.ad-feed-top button:nth-child(1){
+  background-color:#3E6DB3;
 }
 .post-to-feed{
   width:100%;
@@ -73,10 +75,14 @@ header nav ul li{
   border-bottom:solid lightgrey 1px;
   padding-top:-10px;
   background-color:#E7EDF0;
+  border: solid lightgrey 0.5px;
 }
 .post-to-feed-menu ul li, .post-to-feed-bottom-menu ul li{
   display:inline-block;
   clear:both;
+}
+.post-to-feed-bottom-menu button{
+  border-radius:20px;
 }
 .post-to-feed-menu ul{
   word-spacing:10px;
@@ -101,12 +107,17 @@ header nav ul li{
   width:20%;
   float:left;
   padding-top:20px;
+  font-size:12px;
 }
 .notes{
   border:solid lightgrey 1px;
   height:100px;
   width:100%;
   background-color:white;
+}
+.notes ul li span,
+.bottom-middle-feed span{
+  color:#3E6DB3;
 }
 .trending-feed{
   border:solid lightgrey 1px;
@@ -137,7 +148,8 @@ header nav ul li{
   border:solid lightgrey 1px;
 }
 .friend-list div:first-of-type ul li{
-  border:solid lightgrey 1px;
+  border-bottom:solid lightgrey 1px;
+  padding:7px;
 }
 .friend-list div:nth-child(2){
   border:solid lightgrey 1px;
