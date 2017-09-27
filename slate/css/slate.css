@@ -1,0 +1,137 @@
+*{
+  font-family:'Roboto Condensed', sans-serif;
+  text-decoration:none;
+  list-style:none;
+}
+.entire-left-feed{
+  float:left;
+  border:solid 1px;
+  width:75%;
+  height:1000px;
+}
+.main-slate-news{
+  float:left;
+  border:solid 1px black;
+  height:400px;
+  width:100%;
+  background: url('http://cdn.abclocal.go.com/content/wpvi/images/cms/1599300_1280x720.jpg');
+}
+.main-slate-news div{
+  color:white;
+}
+.left-photo-blurb{
+  width:25%;
+  float:left;
+  text-align:center;
+  margin-left:20px;
+}
+.left-photo-blurb h1{
+  font-size:36px;
+}
+.left-photo-blurb h3{
+  color:yellow;
+}
+.left-photo-blurb span{
+  font-style:italic;
+}
+.right-photo-blurb{
+  float:right;
+  width:35%;
+  margin-right:20px;
+}
+.right-photo-blurb h3{
+  text-align:center;
+  border-bottom:solid 1px lightgrey;
+  border-top:solid 1px lightgrey;
+}
+.right-photo-blurb ul li{
+  margin-bottom:10px;
+}
+.left-middle-left{
+  width:25%;
+  height:400px;
+  float:left;
+  border:solid 1px lightgrey;
+}
+.left-middle-left img{
+  height:175px;
+  width:100%;
+}
+.left-middle-left h1{
+  font-size:30px;
+  color:black;
+}
+.whitespace-hack{
+  width:25%;
+  height:400px;
+  float:left;
+}
+.left-middle-right{
+  width:35%;
+  height:400px;
+  float:right;
+}
+.left-middle-right section:first-of-type{
+  border:solid 1px lightgrey;
+  height:50%;
+  width:100%;
+  float:left;
+}
+.left-middle-right section:first-of-type h1{
+  color:black;
+}
+.left-middle-right section:first-of-type span{
+  padding-left:10px;
+}
+.left-middle-right section:last-of-type{
+  border:solid 1px lightgrey;
+  height:50%;
+  width:100%;
+  float:left;
+  background-color:#821E4D;
+}
+.left-middle-right section h1{
+  font-size:30px;
+  margin:0px;
+  padding:10px;
+}
+.left-middle-right section:last-of-type h1{
+  color:white;
+}
+.left-middle-right section:last-of-type span{
+  font-style:italic;
+  color:white;
+  padding-left:10px;
+}
+.right-feed nav ul li{
+  display:inline-block;
+  color:white;
+}
+.right-feed nav ul li a i{
+  color:white;
+}
+.nav-bar{
+  float:left;
+  width:23%;
+  height:90px;
+  background-color:#821E4D;
+}
+.right-feed div h1{
+  font-size:46px;
+  color:white;
+  margin:10px;
+}
+.right-feed{
+  border:solid 1px lightgrey;
+  float:right;
+  width:23%;
+}
+{
+  background-color:#821E4D;
+}
+.slate-title{
+  border:solid 1px lightgrey;
+  background-color:#821E4D;
+  float:left;
+  height:90px;
+}
