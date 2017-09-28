@@ -5,14 +5,10 @@
 }
 .entire-left-feed{
   float:left;
-  border:solid 1px;
   width:75%;
-  height:1000px;
 }
 .main-slate-news{
   float:left;
-  border:solid 1px black;
-  height:400px;
   width:100%;
   background: url('http://cdn.abclocal.go.com/content/wpvi/images/cms/1599300_1280x720.jpg');
 }
@@ -49,7 +45,6 @@
 }
 .left-middle-left{
   width:25%;
-  height:400px;
   float:left;
   border:solid 1px lightgrey;
 }
@@ -68,7 +63,6 @@
 }
 .left-middle-right{
   width:35%;
-  height:400px;
   float:right;
 }
 .left-middle-right section:first-of-type{
@@ -107,31 +101,70 @@
   display:inline-block;
   color:white;
 }
+.right-feed nav ul{
+  float:right;
+  margin-right:20px;
+  font-size:25px;
+  word-spacing:10px;
+}
 .right-feed nav ul li a i{
   color:white;
 }
-.nav-bar{
+.header{
   float:left;
-  width:23%;
   height:90px;
   background-color:#821E4D;
+  clear:both;
+  width:100%;
+}
+.most-recent-see-all{
+  height:50px;
+  width:100%;
+  background-color:black;
+  float:left;
+}
+.most-recent-see-all span:first-of-type{
+  color:white;
+  font-size:20px;
+  margin-left:50px;
+  margin-top:100px;
+}
+.most-recent-see-all span:last-of-type{
+  color:yellow;
+  float:right;
+  margin:20px;
 }
 .right-feed div h1{
-  font-size:46px;
+  font-size:60px;
   color:white;
   margin:10px;
+  width:175px;
+  float:left;
+  letter-spacing:5px;
 }
 .right-feed{
   border:solid 1px lightgrey;
   float:right;
   width:23%;
 }
-{
-  background-color:#821E4D;
+.right-feed ul li span{
+  color:grey;
 }
-.slate-title{
-  border:solid 1px lightgrey;
-  background-color:#821E4D;
-  float:left;
-  height:90px;
+.right-feed ul li h3 a{
+  color:black;
+}
+
+@media only screen and (max-width:600px){
+  .right-feed{
+    width:100%;
+  }
+  header, .most-recent-see-all{
+    float:left;
+    width:100%;
+    clear:both;
+  }
+  .entire-left-feed{
+    width:100%;
+    float:left;
+  }
 }
