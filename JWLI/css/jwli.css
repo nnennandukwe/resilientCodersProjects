@@ -1,0 +1,213 @@
+*{
+  color:black;
+  text-decoration:none;
+  list-style:none;
+  font-family: 'Open Sans', sans-serif;
+}
+header{
+  height:50px;
+}
+header nav ul{
+  text-align:center;
+  word-spacing:75px;
+}
+header nav ul li{
+  display:inline-block;
+}
+header nav ul li a button{
+  background-color:#3D4B59;
+  border:none;
+  color:white;
+  height:35px;
+  width:150px;
+  font-size:16px;
+}
+.hero{
+  height:550px;
+  background-color:#F0F0F0;
+  padding-left:5%;
+  padding-right:5%;
+}
+.left-hero-blurb{
+  width:55%;
+  height:100%;
+  float:left;
+}
+.left-hero-blurb h1{
+  font-size:36px;
+  font-weight:400;
+}
+.left-hero-blurb h3{
+  font-weight:400;
+}
+.left-hero-blurb form input,
+.left-hero-blurb button{
+  height:50px;
+  border:solid 1px grey;
+  border-radius:5px;
+}
+.left-hero-blurb form input{
+  width:300px;
+  font-size:18px;
+}
+.left-hero-blurb form input::placeholder{
+  color:lightgrey;
+}
+.left-hero-blurb form button{
+  width:175px;
+  color:white;
+  background-color:#9DB6C6;
+  font-size:18px;
+  font-weight:300;
+}
+.right-hero-image{
+  float:left;
+}
+.about-section{
+  height:300px;
+}
+.history-blurb{
+  background-color:#F0F0F0;
+  height:750px;
+}
+.left-history-story{
+  width:45%;
+  float:left;
+  padding:20px 30px 20px 50px;
+}
+.left-history-story h3{
+  font-size:30px;
+  font-weight:400;
+}
+.empower-points{
+  width:60%;
+  margin:auto;
+  margin-top:75px;
+}
+.empower-points div{
+  border-top:solid 2px pink;
+}
+.jwli-location{
+  width:60%;
+  margin:auto;
+  margin-top:75px;
+}
+.about-section section div{
+  float:left;
+  width:50%;
+}
+.about-section h2{
+  text-align:center;
+  font-weight:600;
+  width:60%;
+  margin:auto;
+}
+.history-photos {
+  width:40%;
+  float:left;
+  margin:40px;
+}
+.history-photos img{
+  height:275px;
+  width:350px;
+  float:right;
+  margin-bottom:30px;
+}
+.who-we-are{
+  margin-left:40px;
+  margin-right:40px;
+  padding:40px 60px 40px 60px;
+  clear:both;
+}
+.who-we-are h2{
+  text-align:center;
+  font-weight:600;
+  font-size:30px;
+}
+.founder{
+  border:solid 1px lightgrey;
+  padding:40px;
+}
+.founder p{
+  text-align:justify;
+}
+.founder-photo{
+  float:left;
+  padding:20px;
+}
+.fish-family{
+  float:left;
+  width:50%;
+}
+.simmons{
+  float:left;
+  width:49%;
+}
+.simmons h4 img{
+  height:100px;
+  width:200px;
+}
+.subscription{
+  clear:both;
+  text-align:center;
+  background-color:#B9CDDA;
+  height:80px;
+  padding-top:20px;
+  padding-left:40px;
+  padding-right:40px;
+  margin-bottom:-30px;
+}
+.subscription span,
+.subscription button{
+  color:white;
+  font-size:24px;
+  font-weight:300;
+  height:42px;
+}
+.subscription input {
+  height:40px;
+  width:300px;
+}
+.subscription input::placeholder{
+  font-size:20px;
+  color:lightgrey;
+}
+.subscription input,
+.subscription button{
+  border:none;
+  border-radius:5px;
+  border:solid 1px grey;
+}
+.subscription span{
+  margin-right:40px;
+  float:left;
+}
+footer{
+  background-color:#87979F;
+  height:300px;
+}
+.top-footer-div{
+  border-bottom:solid 1px white;
+  height:75px;
+}
+footer div span{
+  float:left;
+  margin-left:40px;
+  font-weight:600;
+}
+footer div span,
+.top-footer-div ul li a{
+  color:white;
+  margin-top:25px;
+}
+footer div ul li{
+  display:inline-block;
+  float:right;
+  margin-top:25px;
+  margin-right:40px;
+}
+.home-list{
+  float:left;
+  height:200px;
+  width:100px;
+}
