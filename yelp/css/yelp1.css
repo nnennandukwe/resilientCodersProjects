@@ -1,0 +1,214 @@
+*{
+  font-family:'Hind', sans-serif;
+}
+
+.background-image-section{
+  background-image:url('https://i.pinimg.com/originals/a0/65/67/a065675006652acde249a4099314592e.jpg');
+  clear:both;
+  height:800px;
+}
+header{
+  clear:both;
+  height:100px;
+}
+.left-nav ul li,
+.right-nav ul li{
+  display:inline-block;
+  padding:15px;
+  font-size:20px;
+}
+.left-nav ul li a,
+.right-nav ul li a{
+  color:white;
+}
+.left-nav{
+  width:50%;
+  float:left;
+  padding:10px;
+}
+.right-nav{
+  float:right;
+  padding:10px;
+}
+.right-nav ul li a button{
+  background:transparent;
+  border:solid 1px white;
+  border-radius:5px;
+  height:50px;
+  width:125px;
+}
+.yelp-logo{
+  text-align:center;
+  margin-top:100px;
+}
+.yelp-logo img{
+  height:200px;
+  width:320px;
+}
+.center-search-frame{
+  text-align:center;
+}
+.center-search-frame form input{
+  height:50px;
+  width:450px;
+  border:none;
+  border-radius:5px;
+}
+.center-search-frame form a button{
+  height:50px;
+  width:100px;
+  margin-left:-5px;
+  border:none;
+  border-radius:5px;
+  color:white;
+  background-color:#CD0C03;
+  font-size:22px;
+}
+.near-me-search{
+  margin-left:-12px;
+}
+.hero-entertainment-list{
+  text-align:center;
+}
+.hero-entertainment-list ul li{
+  display:inline-block;
+  font-size:20px;
+  padding:15px;
+}
+.hero-entertainment-list ul li a{
+  color:white;
+}
+.hero-entertainment-list ul li a:hover{
+  text-decoration:none;
+}
+.photo-tag{
+  text-align:center;
+  padding:10%;
+}
+.photo-tag span{
+  color:black;
+}
+.yelp-boston{
+  margin-left:25px;
+  margin-right:25px;
+  border-bottom:solid 1px lightgrey;
+}
+.yelp-boston div h2{
+  color:#CD0C03;
+  text-align:center;
+  font-weight:600;
+}
+.other-cities-list nav ul{
+  text-align:center;
+}
+.other-cities-list nav ul li{
+  list-style:none;
+  display:inline-block;
+  padding:10px;
+}
+.other-cities-list nav ul li a{
+  font-size: 16px;
+  color:grey;
+}
+.hot-new-businesses{
+  clear:both;
+  padding:5%;
+  height:800px;
+}
+.hot-new-businesses h3{
+  text-align:center;
+  color:#CD0C03;
+}
+.hot-new-businesses img{
+  height:50%;
+  width:100%;
+}
+.left-business,
+.middle-business,
+.right-business{
+  width:28%;
+  float:left;
+  margin:1.5%;
+  border:solid 1px lightgrey;
+  border-radius:7px;
+}
+.left-business a,
+.middle-business a,
+.right-business a{
+  text-decoration:none;
+}
+.left-business a:hover,
+.middle-business a:hover,
+.right-business a:hover{
+  color:inherit;
+}
+
+.left-business span:last-of-type,
+.middle-business span:last-of-type,
+.right-business span:last-of-type{
+  color:orange;
+}
+
+.more-businesses-link{
+  text-align:center;
+  float:left;
+  width:100%;
+}
+.business-browsing-section{
+  background-color:#EEEEEE;
+  clear:both;
+  border:solid 1px #EEEEEE;
+  width:100%;
+}
+.business-browsing-section div h2{
+  color:#CD0C03;
+  text-align:center;
+  padding:2%;
+}
+.business-box{
+  border:solid 1px lightgrey;
+  border-radius:5px;
+  height:200px;
+  width:20%;
+  float:left;
+  background-color:white;
+  margin:15px;
+  text-align:center;
+  padding-top:5%;
+}
+.business-box a i{
+  font-size:50px;
+}
+.business-box a,
+.business-box a:hover{
+  color:black;
+  font-size:18px;
+  text-decoration:none;
+}
+.top-half-categories{
+  clear:both;
+  width:100%;
+  float:left;
+  padding-left:10%;
+  background-color:#EEEEEE;
+}
+.bottom-half-categories{
+  float:left;
+  width:100%;
+  padding-left:10%;
+  background-color:#EEEEEE;
+}
+
+@media only screen and (max-width:600px){
+  .left-business,
+  .middle-business,
+  .right-business{
+    width:100%;
+  }
+  .photo-tag{
+    display:none;
+  }
+  .business-box{
+    width:90%;
+  }
+}
