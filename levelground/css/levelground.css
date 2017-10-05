@@ -213,3 +213,13 @@ footer{
   width:50px;
   float:right;
 }
+
+@media only screen and (max-width:600px){
+  .left-involved img,
+  .right-involved img{
+    display:none;
+  }
+  .hero{
+    height:800px;
+  }
+}

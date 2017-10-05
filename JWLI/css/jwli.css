@@ -1,7 +1,6 @@
 *{
   color:black;
   text-decoration:none;
-  list-style:none;
   font-family: 'Open Sans', sans-serif;
 }
 header{
@@ -86,6 +85,7 @@ header nav ul li a button{
 }
 .empower-points div{
   border-top:solid 2px pink;
+  border-radius:7px;
 }
 .jwli-location{
   width:60%;
@@ -184,30 +184,110 @@ header nav ul li a button{
 }
 footer{
   background-color:#87979F;
-  height:300px;
+  height:400px;
 }
 .top-footer-div{
   border-bottom:solid 1px white;
   height:75px;
 }
-footer div span{
+.top-footer-div span{
   float:left;
   margin-left:40px;
   font-weight:600;
 }
-footer div span,
+.top-footer-div span,
 .top-footer-div ul li a{
   color:white;
   margin-top:25px;
 }
-footer div ul li{
-  display:inline-block;
+.social-media-list{
   float:right;
-  margin-top:25px;
+}
+.social-media-list li{
+  display:inline-block;
+}
+footer div ul li{
+  list-style:none;
   margin-right:40px;
 }
-.home-list{
+.bottom-lists{
   float:left;
-  height:200px;
-  width:100px;
+  width:150px;
+  padding-left:4%;
+  padding-right:2%;
+}
+#boldened-title{
+  font-weight:600;
+}
+.bottom-lists ul li a{
+  font-weight:300;
+}
+.bottom-lists ul li{
+  padding:0px;
+  margin:0px;
+}
+.bottom-lists ul li a{
+  color:white;
+}
+.bottom-list-right{
+  padding-left:4%;
+  padding-right:2%;
+}
+.bottom-list-right ul{
+  width:450px;
+  float:right;
+}
+.bottom-list-right ul li{
+  display:inline-block;
+}
+.bottom-list-right ul li a{
+  color:white;
+  font-weight:600;
+}
+
+@media only screen and (max-width:500px){
+  header{
+    height:200px;
+  }
+  header nav ul li{
+    width:100%;
+    clear:both;
+  }
+  .subscription{
+    height:200px;
+  }
+  .top-footer-div{
+    height:100px;
+  }
+  .about-section{
+    height:600px;
+  }
+  .history-photos{
+    display:none;
+  }
+  .history-blurb{
+    background-color:white;
+  }
+  .founder-photo img{
+    display:none;
+  }
+}
+@media only screen and (max-width:800px){
+
+  .right-hero-image{
+    display:none;
+  }
+  .hero{
+    height:800px;
+  }
+  .subscription{
+    height:200px;
+  }
+  .top-footer-div{
+      height:200px;
+  }
+  .social-media-list{
+    width:100%;
+    clear:both;
+  }
 }
