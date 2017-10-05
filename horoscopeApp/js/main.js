@@ -3,16 +3,12 @@ document.getElementsByTagName("button")[0].onclick = getHoroscope;
 
 function getHoroscope(){
 
-  // define variables that get values from the month and day inputs
-  var userMonth = document.getElementById("month").value,
-      userDay = document.getElementById("day").value;
+  // define variables that get values from the month and day inputs and parse as floats
+    var userMonth = parseFloat(document.getElementById("month").value),
+      userDay = parseFloat(document.getElementById("day").value);
 
-   // define variables that parse the month and day strings into floats
-  var parsedDay = parseFloat(userDay),
-      parsedMonth = parseFloat(userMonth)
 
-  // define inner HTML connection for horoscope message display
-
+  // define inner HTML arrays and objects
 
   var horoscopeSigns = {
         'aquarius': 'Aquarius, you won\'t find love again, fucking loser.',
@@ -30,40 +26,40 @@ function getHoroscope(){
       }
 
   // determine horoscope with if statements depending on month and day
-  if(parsedMonth == 1 && parsedDay >= 20 || parsedMonth == 2 && parsedDay <= 18) {
+  if(userMonth == 1 && userDay >= 20 || userMonth == 2 && userDay <= 18) {
     document.getElementsByTagName("span")[1].innerHTML = horoscopeSigns.aquarius;
   }
-  else if(parsedMonth == 2 && parsedDay >= 19 || parsedMonth == 3 && parsedDay <= 20){
+  else if(userMonth == 2 && userDay >= 19 || userMonth == 3 && userDay <= 20){
     document.getElementsByTagName("span")[1].innerHTML = horoscopeSigns.pisces;
   }
-  else if(parsedMonth == 3 && parsedDay >= 21 || parsedMonth == 4 && parsedDay <= 19){
+  else if(userMonth == 3 && userDay >= 21 || userMonth == 4 && userDay <= 19){
     document.getElementsByTagName("span")[1].innerHTML = horoscopeSigns.aries;
   }
-  else if(parsedMonth == 4 && parsedDay >= 20 || parsedMonth == 5 && parsedDay <= 20){
+  else if(userMonth == 4 && userDay >= 20 || userMonth == 5 && userDay <= 20){
     document.getElementsByTagName("span")[1].innerHTML = horoscopeSigns.taurus;
   }
-  else if(parsedMonth == 5 && parsedDay >= 21 || parsedMonth == 6 && parsedDay <= 20){
+  else if(userMonth == 5 && userDay >= 21 || userMonth == 6 && userDay <= 20){
     document.getElementsByTagName("span")[1].innerHTML = horoscopeSigns.gemini;
   }
-  else if(parsedMonth == 6 && parsedDay >= 21 || parsedMonth == 7 && parsedDay <= 22){
+  else if(userMonth == 6 && userDay >= 21 || userMonth == 7 && userDay <= 22){
     document.getElementsByTagName("span")[1].innerHTML = horoscopeSigns.cancer;
   }
-  else if(parsedMonth == 7 && parsedDay >= 23 || parsedMonth == 8 && parsedDay <= 22){
+  else if(userMonth == 7 && userDay >= 23 || userMonth == 8 && userDay <= 22){
     document.getElementsByTagName("span")[1].innerHTML = horoscopeSigns.leo;
   }
-  else if(parsedMonth == 8 && parsedDay >= 23 || parsedMonth == 9 && parsedDay <= 22){
+  else if(userMonth == 8 && userDay >= 23 || userMonth == 9 && userDay <= 22){
     document.getElementsByTagName("span")[1].innerHTML = horoscopeSigns.virgo;
   }
-  else if(parsedMonth == 9 && parsedDay >= 23 || parsedMonth == 10 && parsedDay <= 22){
+  else if(userMonth == 9 && userDay >= 23 || userMonth == 10 && userDay <= 22){
     document.getElementsByTagName("span")[1].innerHTML = horoscopeSigns.libra;
   }
-  else if(parsedMonth == 10 && parsedDay >= 23 || parsedMonth == 11 && parsedDay <= 21){
+  else if(userMonth == 10 && userDay >= 23 || userMonth == 11 && userDay <= 21){
     document.getElementsByTagName("span")[1].innerHTML = horoscopeSigns.scorpio;
   }
-  else if(parsedMonth == 11 && parsedDay >= 22 || parsedMonth == 12 && parsedDay <= 21){
+  else if(userMonth == 11 && userDay >= 22 || userMonth == 12 && userDay <= 21){
     document.getElementsByTagName("span")[1].innerHTML = horoscopeSigns.sagittarius;
   }
-  else if(parsedMonth == 12 && parsedDay >= 22 || parsedMonth == 1 && parsedDay <= 19){
+  else if(userMonth == 12 && userDay >= 22 || userMonth == 1 && userDay <= 19){
     document.getElementsByTagName("span")[1].innerHTML = horoscopeSigns.capricorn;
   }
   else{
