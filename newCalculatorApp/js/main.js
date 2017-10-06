@@ -31,7 +31,7 @@ $(document).ready(function(){
 
   $("#multiplier").on("click", function(){
     // get input fields
-    var firstNumber = parseFloat($("#firstNumb er").val());
+    var firstNumber = parseFloat($("#firstNumber").val());
     var secondNumber = parseFloat($("#secondNumber").val());
 
     // multiply input values

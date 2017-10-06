@@ -13,7 +13,7 @@ function getHoroscope(){
   var horoscopeSigns = {
         'aquarius': 'Aquarius, you won\'t find love again, fucking loser.',
         'pisces': 'Pisces, be more confident. Everyone can tell you are antisocial.',
-        'aries': 'Aries, Your partner is cheating on you. How could you not have known?',
+        'aries': 'Aries, your partner is cheating on you. How could you not have known?',
         'taurus': 'Taurus, you chased after that person because you wanted love. You NEED to be chasing that paper because that bank account lookin sadder than a clown.',
         'gemini': 'Gemini, pick up a book every once in a while. You can\'t even speak correctly.',
         'cancer': 'Cancer, time to go shoppping.. If you actually want to NOT look homeless like you typically do.',

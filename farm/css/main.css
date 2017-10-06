@@ -1,0 +1,42 @@
+body{
+	background-image:url('https://hdwallsource.com/img/2014/2/farm-wallpaper-16687-17226-hd-wallpapers.jpg');
+	background-repeat: no-repeat;
+	height:1000px;
+	width:1000px;
+}
+
+img{
+	height:200px;
+	width:200px;
+	float:left;
+}
+
+#chimps{
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+#giraffe{
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+#lion{
+	position:absolute;
+	bottom:0;
+	right:-5;
+}
+#hippo{
+	position:absolute;
+	bottom:0;
+	border:solid 1px;
+}
+#zebra{
+	position:absolute;
+	top:20;
+	left:0;
+}
+
+
+
+
