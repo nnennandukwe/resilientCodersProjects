@@ -1,0 +1,12 @@
+body{
+	background-image: url('http://dreamicus.com/data/maze/maze-02.jpg');
+	background-repeat: repeat-x repeat-y;
+}
+
+img{
+	height:100px;
+	width:100px;
+    position: absolute;
+    top: 20;
+    left: 20;
+}
