@@ -4,10 +4,8 @@ document.getElementsByTagName("button")[2].onclick = multiply;
 document.getElementsByTagName("button")[3].onclick = divide;
 
 function add(){
-  var stringFirst = document.getElementById("firstNumber").value,
-      stringSecond = document.getElementById("secondNumber").value,
-      firstNumber = parseFloat(stringFirst),
-      secondNumber = parseFloat(stringSecond);
+  var firstNumber = parseFloat(document.getElementById("firstNumber").value),
+      secondNumber = parseFloat(document.getElementById("secondNumber").value);
 
   document.getElementsByTagName("label")[0].innerHTML = firstNumber + secondNumber;
 
@@ -16,10 +14,10 @@ function add(){
 }
 
 function subtract(){
-  var stringFirst = document.getElementById("firstNumber").value,
-      stringSecond = document.getElementById("secondNumber").value,
-      firstNumber = parseFloat(stringFirst),
-      secondNumber = parseFloat(stringSecond);
+  var firstNumber = document.getElementById("firstNumber").value,
+      secondNumber = document.getElementById("secondNumber").value,
+      firstNumber = parseFloat(firstNumber),
+      secondNumber = parseFloat(secondNumber);
 
   document.getElementsByTagName("label")[0].innerHTML = firstNumber - secondNumber;
 
@@ -28,10 +26,10 @@ function subtract(){
 }
 
 function multiply(){
-  var stringFirst = document.getElementById("firstNumber").value;
-  var stringSecond = document.getElementById("secondNumber").value;
-  var firstNumber = parseFloat(stringFirst);
-  var secondNumber = parseFloat(stringSecond);
+  var firstNumber = document.getElementById("firstNumber").value;
+  var secondNumber = document.getElementById("secondNumber").value;
+  var firstNumber = parseFloat(firstNumber);
+  var secondNumber = parseFloat(secondNumber);
 
   document.getElementsByTagName("label")[0].innerHTML = firstNumber * secondNumber;
 
@@ -40,10 +38,10 @@ function multiply(){
 }
 
 function divide(){
-  var stringFirst = document.getElementById("firstNumber").value;
-  var stringSecond = document.getElementById("secondNumber").value;
-  var firstNumber = parseFloat(stringFirst);
-  var secondNumber = parseFloat(stringSecond);
+  var firstNumber = document.getElementById("firstNumber").value;
+  var secondNumber = document.getElementById("secondNumber").value;
+  var firstNumber = parseFloat(firstNumber);
+  var secondNumber = parseFloat(secondNumber);
 
   document.getElementsByTagName("label")[0].innerHTML = firstNumber / secondNumber;
 
