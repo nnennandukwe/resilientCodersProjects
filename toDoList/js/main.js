@@ -1,17 +1,17 @@
 $(document).ready(function(){
 
 
-    $('.submit-button').on('click', function(){
+    $("#submit-button").on("click", function(){
 
-        var userInput = $('input').val();
+        var userInput = $("#listfield").val();
 
-        $('ul').append('<li>' + userInput + '</li>')
+        $("#list").append('<li>' + userInput + '</li>');
 
-        $('input').val('');
+        $("#listfield").val('');
 
     });
 
-    $('.clear-list-button').on('click', function(){
+    $("#clear-list-button").on("click", function(){
 
         $('li').remove();
 
