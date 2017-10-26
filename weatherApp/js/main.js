@@ -27,7 +27,7 @@ $.ajax({
   		$.get(apiURL, function(d){
   			console.log(d);
 
-  			convertedTemp = (((d.main.temp-273.15)*1.8)+3.2).toFixed(2);
+  			convertedTemp = (9/5) * (d.main.temp-273) + (32);
   			$("span").text(convertedTemp+" degrees Fahrenheit");
   		});
 });
