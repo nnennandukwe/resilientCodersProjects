@@ -1,0 +1,25 @@
+body{
+	width:45%;
+	margin:auto;
+}
+
+.header{
+	background-color:#80BFEC;
+	width:100%;
+	border-radius:10px;
+	float:left;
+	clear:both;
+}
+
+h1{
+	color:white;
+	font-family:Helvetica;
+	text-align:center;
+}
+.tweets-section{
+	border-radius:12px;
+	border:solid 1px #80BFEC;
+	float:left;
+	height:200px;
+	width:100%;
+}
