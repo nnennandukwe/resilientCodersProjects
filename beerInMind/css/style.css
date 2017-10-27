@@ -1,0 +1,26 @@
+body{
+	width:55%;
+	margin:auto;
+	font-family:'Droid Sans',sans-serif;
+	
+}
+h1{
+	font-size:48px;
+	padding:5%;
+	text-align:center;
+	color:#EC9C80;
+}
+h3{
+	color:#EB984E;
+	text-align:center;
+}
+section{
+	background-color:#FFF4F0;
+	border-radius:12px;
+}
+ol{
+	color:#B25434;
+}
+ol li{
+	padding:5%;
+}
