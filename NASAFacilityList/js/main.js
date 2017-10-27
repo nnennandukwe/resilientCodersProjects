@@ -11,7 +11,7 @@ $.ajax({
 			console.log(d);
 
 			d.forEach(function(el){
-				$("ol").append("<li>"+el.facility+"/<li>");
+				$("ol").append("<li>"+el.facility+"</li>");
 			})
 
 		});
