@@ -7,8 +7,8 @@ $(document).ready(function(){
 
         $("#list").append('<li>' + userInput + '</li>');
 
-        $("#listfield").val('');
 
+        $("#listfield").val("");
     });
 
     $("#clear-list-button").on("click", function(){
