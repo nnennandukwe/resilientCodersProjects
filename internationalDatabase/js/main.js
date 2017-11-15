@@ -8,7 +8,7 @@ $.ajax({
     $("ol").append("<li>"+el[2]+": "+el[3]+"</li>")
     })
     $.ajax({
-      url:"https://data.nasa.gov/resource/gvk9-iz74.json",
+      url:"https://jgentes-Crime-Data-v1.p.mashape.com/crime",
       success:function(d){
         console.log(d);
       },
